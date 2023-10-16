@@ -1,3 +1,60 @@
 nav {
     font-size: 27px
 }
+
+body {
+    background-color: burlywood;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 90px;
+}
+
+footer {
+	background-color: #2a2928;
+	color: white;
+	padding: 25px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer img {
+	filter: invert();
+	height: 30px;
+}
+
+footer img:hover {
+	opacity: 80%;
+}
+
+footer ul {
+	display: flex;
+	gap: 10px;
+}
+footer li {
+	display: block;
+}
+
+footer div {
+	display: flex;
+	align-items: flex-start;
+}
+
+footer section {
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+footer section header {
+	font-size: 2.5em;
+}
+
+footer section p {
+    font-size: 1.3em;
+}
